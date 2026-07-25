@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 100%;
+    color: #F9FAF8;
+    height: 100vh;
+
+}
+
+header,
+section,
+footer {
+    background: #1F2937;
+    padding: 0 10%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.logo {
+    font-size: 24px;
+
+}
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+section {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.hero-section h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-section p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #e5e7ebab;
+}
+
+.hero-section a {
+    white-space: nowrap;
+    background: #3882F6;
+    cursor: pointer;
+    border: none;
+    padding: 4px 8px;
+    color: #F9FAF8;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.main-text {
+    color:#1F2937;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+.main-info {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.main-info img{
+    border: 2px solid hsl(194, 100%, 59%);
+    border-radius: 4px;
+    height: 200px;
+    width: 200px;
+}
+
+.quotes {
+    width: 550px;
+    padding: 3rem;
+}
+.big {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+.big a {
+    text-decoration: none;
+    color: #1f293779;
+}
+.right-side {
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: 600;
+    display: flex;
+    justify-content: end;
+}
+footer {
+    min-height: 50px;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
